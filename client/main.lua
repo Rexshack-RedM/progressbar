@@ -40,6 +40,7 @@ local isPropTwo = false
 local prop_net = nil
 local propTwo_net = nil
 local runProgThread = false
+local RSGCore = exports['rsg-core']:GetCoreObject()
 
 RegisterNetEvent('progressbar:client:ToggleBusyness')
 AddEventHandler('progressbar:client:ToggleBusyness', function(bool)
